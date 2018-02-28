@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorMercury">
+
+    <LinearLayout
+        android:id="@+id/comp_tohide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:background="@color/colorMercury"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+
+        <RelativeLayout
+            android:id="@+id/welcome_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp">
+            <View
+                android:id="@+id/welcome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/splash_screen"/>
+
+
+            <TextView
+                android:id="@+id/txtview_welcome_name"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hello"
+                android:textColor="@color/colorBlack"
+                android:layout_marginLeft="20dp"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:id="@+id/current"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/txtview_welcome_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/currentlocation"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/latlong"
+                android:layout_marginTop="0dp"
+                android:layout_below="@+id/current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/latlong"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/datetime"
+                android:layout_marginTop="0dp"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/latlong"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_below="@+id/comp_tohide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"/>
+
+
+</RelativeLayout>
+
+</LinearLayout>

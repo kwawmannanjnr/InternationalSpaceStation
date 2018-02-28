@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/user/Downloads/ISSTEst-test/C:\\Android\\ISpaceStation\\networksdk\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/user/Downloads/ISSTEst-test/C:\\Users\\soma\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\3b1cdc86d14772b199eb4b6ea853f4e0\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/user/Downloads/ISSTEst-test/networksdk/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/1cf77493b4e319017da2eff1ebad3efe/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}
